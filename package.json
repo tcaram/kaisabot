@@ -1,0 +1,15 @@
+{
+  "name": "kaisabot",
+  "version": "1.0.0",
+  "description": "Discord bot that provides the required tools for users to ask and answer questions, with an in-built scoring system.",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "author": "Tomás Caram <aresmta@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "mysql": "^2.16.0"
+  }
+}

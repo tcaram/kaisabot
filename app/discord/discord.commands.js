@@ -103,8 +103,8 @@ async function answer (msg, syntax) {
 
 var commands = {
   // command: [function, syntax, allowedChannel]
-  ask: [ask, '%command% pregunta', config.discord.channels.questions],
-  answer: [answer, '%command% id respuesta', config.discord.channels.answers]
+  ask: [ask, '%command% question', config.discord.channels.questions],
+  answer: [answer, '%command% id answer', config.discord.channels.answers]
 }
 
 function commandsHandler (command, msg, output = true) {
